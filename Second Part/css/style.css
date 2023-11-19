@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,700&family=Varela+Round&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EBEBFF;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+main article{
+    align-items: stretch;
+    
+}
+
+.container{
+    background-color: white;
+    padding-top: 20px;
+}
+
+#sidemenu{
+    border-right: solid 1px #94BDD6;
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+#sidemenu li{
+    padding: 5px;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    margin-right: 3px;
+}
+
+#sidemenu a{
+    text-decoration: none;
+}
+
+#sidemenu li:hover{
+    color: white;
+    background-color: #94BDD6;
+}
+
+header {
+    background-image: url("D://ProyectosProgramacion//HTML//Caa2_GuillermoC//Second Part//Materials//images//cabecera.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+
+h1 {
+    font-family: 'Varela Round', sans-serif;    
+}
