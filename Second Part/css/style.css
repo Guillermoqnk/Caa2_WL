@@ -58,8 +58,12 @@ main article {
 }
 
 #sidemenu li:hover {
-    color: white;
     background-color: #94BDD6;
+}
+
+#sidemenu a:hover {
+    color: white;
+    text-decoration-line: underline;
 }
 
 header {
