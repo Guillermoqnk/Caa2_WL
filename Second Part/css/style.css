@@ -40,6 +40,7 @@ main article {
     padding-left: 15px;
     padding-top: 10px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #sidemenu li {
@@ -216,4 +217,8 @@ footer article:last-of-type p {
 
 #imagelist img{
     border-radius: 100%;
+}
+
+abbr {
+    text-decoration: none;
 }
