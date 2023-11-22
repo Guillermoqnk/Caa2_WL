@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,700&family=Varela+Round&display=swap');
-
 body {
     font-family: 'Arvo', sans-serif;
     background-color: #EBEBFF;
     max-width: 1200px;
     font-size: 100%;
     width: 100%;
-    margin: 0px auto;
+    margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 20px;
     box-shadow: 2px 2px 5px -2px black;
@@ -16,10 +14,10 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
-content {
+div {
     padding-top: 20px;
     flex-grow: 1;
 }
@@ -39,17 +37,13 @@ main article {
     list-style-type: none;
     padding-left: 15px;
     padding-top: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #sidemenu li {
-    padding: 5px;
-    padding-right: 70;
-    width: 100px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
+    margin: 5px;
+    padding: 5px 100px 5px 5px;
     margin-right: 5px;
 }
 
@@ -58,13 +52,15 @@ main article {
     color: black;
 }
 
-#sidemenu a:hover, #sidemenu li:hover { 
+#sidemenu a:hover{ 
     color: white; 
     text-decoration-line: underline;
-    background-color: #265675;
+
 } 
-
-
+#sidemenu li:hover{
+    background-color: #265675;
+}
+    
 header {
     background-image: url("../Materials/images/cabecera.jpg");
     background-size: cover;
@@ -82,20 +78,20 @@ h1 {
 }
 
 h2 {
+    text-align: center;
+    border-bottom: none;
+}
+
+h3 {
     text-align: left;
     border-bottom: solid 1px #265675;
 }
 
-h3 {
+h4 {
     background-color: #265675;
     padding: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: white;
-}
-
-article:first-of-type h2 {
-    text-align: center;
-    border-bottom: none;
 }
 
 main article:first-of-type {
@@ -105,7 +101,7 @@ main article:first-of-type {
 }
 
 article:nth-of-type(2) ul {
-    list-style-image: url(/Materials/images/list-icon.png);
+    list-style-image: url(../Materials/images/list-icon.png);
     list-style-position: unset;
     margin-left: 30px;
     font-size: 25px;
@@ -113,49 +109,46 @@ article:nth-of-type(2) ul {
 
 article:nth-of-type(3) ul {
     list-style-type: none;
-    padding-left: 20;
+    padding: 20;
 
 }
 
-.cite {
-    margin-top: 0px;
-    margin-bottom: 0px;
+.blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 50px;
     padding-right: 20px;
     border-bottom: solid 3px #265675;
     box-shadow: 2px 2px 5px -2px black;
     background-image: linear-gradient(to left, #EBF7FF, #EBF7FF 50%, #EBF7FF 93%, #265675 7%);
     background-clip: content-box;
-    text-align: right;
+    text-align: left;
     color: #265675;
 }
 
-.cite cite {
-    box-sizing: inherit;
+.blockquote cite {
+
+    padding-left: 580px;
+    text-align: right;
 }
 
 article:nth-of-type(4) ul {
-    padding: 0px 20px 0px 0px;
+    padding: 0 20px 0 0;
     list-style-type: none;
 }
 
 article:nth-of-type(4) li {
-    padding: 5px;
     border: solid 1px black;
     display: inline-block;
 }
 
 article:nth-of-type(4) figure {
-    margin: 0px;
-
+    margin: 0;
 }
 
 article:nth-of-type(4) img {
-    object-fit: fill;
-    max-width: 200px;
-    max-height: 90px;
-    height: 100%;
-    width: 100%;
+    width: 200px;
+    height: 90px;
 }
 
 article:nth-of-type(4) p {
@@ -198,21 +191,21 @@ footer article:last-of-type p {
     align-items: stretch;
     margin-left: 90px;
     margin-right: 140px;
-    padding: 0px;
+    padding: 0;
 }
 
 #imagelist li{
     border: solid 1px black;
-    margin: 50px 0px 0px 0px;
-    border-radius: 11px 11px 0px 0px;
+    margin: 50px 0 0 0;
+    border-radius: 11px 11px 0 0;
     box-shadow: 2px 2px 6px -2px black;
 }
 
 #imagelist li p:first-of-type{
     background-color: #265675;
-    margin: 0px;
-    padding: 15px 0px 15px 0px;
-    border-radius: 10px 10px 0px 0px;
+    margin: 0;
+    padding: 15px 0 15px 0;
+    border-radius: 10px 10px 0 0;
     color: white;
 }
 
